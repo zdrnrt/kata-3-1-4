@@ -222,7 +222,8 @@ template {
 body {
   font-family: "TT Lakes", sans-serif;
   font-size: 16px;
-  line-height: 1.5; }
+  line-height: 1.5;
+  color: #1B1C21; }
 
 *:focus-within {
   outline-color: #ff3e79; }
@@ -476,7 +477,7 @@ img {
             column-gap: 32px;
     padding-right: 32px; } }
 
-.article-info__link {
+.article-info-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -492,7 +493,13 @@ img {
           justify-content: flex-start;
   -webkit-column-gap: 8px;
      -moz-column-gap: 8px;
-          column-gap: 8px; }
+          column-gap: 8px;
+  text-decoration: none;
+  color: #1B1C21; }
+  .article-info-link:hover {
+    opacity: 0.7; }
+  .article-info-link__icon {
+    width: 40px; }
 
 .article-nav {
   position: relative;

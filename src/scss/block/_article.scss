@@ -66,15 +66,24 @@
         padding-right: 32px;
     }
     &__link{
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-        justify-content: flex-start;
-        column-gap: 8px;
     }
-    &__link-icon{}
 }
+.article-info-link{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 8px;
+    text-decoration: none;
+    color: #1B1C21;
+    &:hover{
+        opacity: 0.7;
+    }
+    &__icon{
+        width: 40px;
+    }
 
+}
 .article-nav{
     position: relative;
     display: flex;
