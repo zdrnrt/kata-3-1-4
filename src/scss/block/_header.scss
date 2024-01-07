@@ -10,7 +10,7 @@
         padding: 19px 24px;
         column-gap: 40px;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1130px) {
         display: none;
     }
     &__contacts{
@@ -27,14 +27,8 @@
         border: none;
         text-decoration: none;
         background-color: transparent;
-        cursor: pointer;
         &:hover{
-            .header__icon-btn{
-                opacity: 0.7;
-            }
-        }
-        &:focus{
-            outline: 1px solid rgb(255, 62, 121);
+            opacity: 0.7;
         }
     }
     &__icon-btn{
@@ -98,7 +92,6 @@
     align-items: center;
     justify-content: flex-start;
     column-gap: 16px;
-    padding-left: 20px;
     @media screen and (min-width: 768px) {
         padding-left: 0px;
     }
